@@ -4,7 +4,7 @@
 
 places = [" ","Argentina", " ", "San Diego","","  ","","Boston","New York"]
 
-new_places = list(filter(lambda place: True if place[0].lower() == "" else False, places))
+new_places = list(filter(lambda place: True if place[0].lower() == " " else False, places))
 
 print(new_places)
 
